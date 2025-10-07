@@ -1,0 +1,22 @@
+# Global ignores
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+
+# Python virtualenv
+venv/
+.venv/
+
+# Node modules
+frontend/node_modules/
+
+# Environment files
+backend/.env
+frontend/.env
+
+# Build and download artifacts
+backend/app/downloads/
+backend/build/
+backend/dist/
+frontend/dist/
